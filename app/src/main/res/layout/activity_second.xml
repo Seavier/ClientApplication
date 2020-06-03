@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bind_video_service_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接会丢包的Service" />
+
+    <Button
+        android:id="@+id/start_video_play_activity_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动活动｜播放视频"/>
+
+    <Button
+        android:id="@+id/start_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动任务获取视频"/>
+
+    <Button
+        android:id="@+id/get_loss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取丢包"/>
+
+    <Button
+        android:id="@+id/write_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="将视频写入本地"/>
+
+
+</LinearLayout>
